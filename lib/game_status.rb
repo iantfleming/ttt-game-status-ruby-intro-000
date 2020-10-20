@@ -40,5 +40,10 @@ def full?(board)
     i == "X" || i == "O"
   end
 end
+
+def draw?(board)
+  
+end
+  
   
   
