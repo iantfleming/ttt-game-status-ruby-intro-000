@@ -55,6 +55,11 @@ end
 
 def winner(board)
   if won?(board)
+    return "X"
+  end
+end
+    
+=begin    
     WIN_COMBINATIONS.include? do |token|
       if token == "X"
         return "X"
