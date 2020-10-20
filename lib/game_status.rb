@@ -36,6 +36,6 @@ def won?(board)
 end
 
 def full?(board)
-  WIN_COMBINATIONS.all? do |full_
+  board.all? do |full_board|
   
   
