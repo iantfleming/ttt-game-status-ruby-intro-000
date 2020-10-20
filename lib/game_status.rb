@@ -54,20 +54,6 @@ def over?(board)
 end
 
 def winner(board)
-  if won?(board)
-    return "X"
-  end
-end
-    
-=begin    
-    WIN_COMBINATIONS.include? do |token|
-      if token == "X"
-        return "X"
-      else 
-        return "O"
-      end
-    end
-  end
 end
     
 
