@@ -35,6 +35,6 @@ def won?(board)
   return false
 end
 
-def draw?(board)
+def full?(board)
   
   
