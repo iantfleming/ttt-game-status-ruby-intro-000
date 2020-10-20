@@ -43,6 +43,8 @@ end
 
 def draw?(board)
   board.all? do |i|
+    i == "X" || i == "O"
+  end    
 end
   
   
