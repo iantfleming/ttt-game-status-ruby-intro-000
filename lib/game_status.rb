@@ -66,9 +66,6 @@ def winner (board)
     end
   end
 end
-=begin
-def winner(board)
-end
-=end   
+ 
 
   
